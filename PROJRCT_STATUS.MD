@@ -1,3 +1,6 @@
+Perfect! Here's the complete `PROJECT_STATUS.md` ready to copy and paste:
+
+```markdown
 # Project Status
 
 ## ✅ Completed (as of 2025-10-04)
@@ -49,6 +52,63 @@
 ## 🚀 How to Resume
 
 1. **Start Previewer:**
-```bash
+   ```bash
    cd previewer
    npm run dev
+   ```
+
+2. **Use CLI:**
+   ```bash
+   refactor --help
+   refactor ingest --zip "path/to/template.zip"
+   refactor generate --slug template-name --variant color --out project-name
+   ```
+
+3. **Run Generated Kit:**
+   ```bash
+   # Server
+   cd kits/[kit-name]/server
+   npm install && npm run dev
+
+   # Client
+   cd kits/[kit-name]/client
+   npm install && npm run dev
+   ```
+
+## 📊 Project Statistics
+
+- Templates ingested: 1 (px-helios-html)
+- Variants available: 3 (cyan, green, orange)
+- Kits generated: 1 (pex-helio-cyan)
+- Total commits: ~5
+- Lines of code: ~750+
+
+## 🔗 Resources
+
+- GitHub Repo: https://github.com/Bvega/web_refactor_light
+- Template Source: Pixelarity Helios
+- Node Version: ≥22
+- Port Usage: 5173 (previewer), 5050 (API), 5174 (client)
+
+## 🐛 Known Issues
+
+None at this time - all core functionality tested and working.
+
+## 📝 Notes
+
+- Project uses npm only (no pnpm/yarn)
+- Windows-compatible paths throughout
+- Git Bash + PowerShell tested
+- OneDrive sync compatible
+```
+
+---
+
+**To create the file:**
+
+1. In your `web_refactor_light` folder, create a new file called `PROJECT_STATUS.md`
+2. Copy everything above (the markdown code)
+3. Paste it into the file
+4. Save
+
+Then you're ready to commit! 🚀
