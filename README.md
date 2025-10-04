@@ -17,6 +17,46 @@ web_refactor_light/
 └── .tmp/              # Temporary extraction folder
 ## 🛠️ Setup
 
+## 🎯 Working Example
+
+This repository includes a working example with the **Helios template**:
+
+### Quick Test Drive
+
+1. **Start the previewer:**
+```bash
+   cd previewer
+   npm install
+   npm run dev
+
+   Visit http://localhost:5173 to browse templates
+
+Generate a kit:
+
+bash   refactor generate --slug px-helios-html --variant cyan --out my-helios-app
+
+Run the generated app:
+
+bash   # Terminal 1 - API Server
+   cd kits/my-helios-app/server
+   npm install
+   npm run dev  # Runs on :5050
+
+   # Terminal 2 - Client
+   cd kits/my-helios-app/client
+   npm install
+   npm run dev  # Runs on :5174
+Available Templates
+
+px-helios-html: 3 variants (cyan, green, orange)
+
+
+Then commit this update:
+```bash
+git add README.md
+git commit -m "docs: Update README with working Helios example"
+git push
+
 ### Prerequisites
 - Node.js >= 22
 - npm (latest)

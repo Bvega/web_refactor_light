@@ -35,3 +35,6 @@ desktop.ini
 # Test files
 *.test.js
 coverage/
+
+# Add this line to .gitignore
+echo "kits/" >> .gitignore

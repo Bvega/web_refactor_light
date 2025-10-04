@@ -1,3 +1,19 @@
 {
-  "templates": []
+  "templates": [
+    {
+      "slug": "px-helios-html",
+      "label": "Px-helios-html",
+      "variants": [
+        "cyan",
+        "green",
+        "orange"
+      ],
+      "pages": [
+        "index.html",
+        "left-sidebar.html",
+        "no-sidebar.html",
+        "right-sidebar.html"
+      ]
+    }
+  ]
 }
