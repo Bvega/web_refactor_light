@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+.tmp/
+*.tmp
+*.temp
+
+# Generated kits (optional - uncomment if you don't want to track generated kits)
+# kits/
+
+# Test files
+*.test.js
+coverage/
